@@ -1,0 +1,251 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.containernav {
+    position: fixed;
+    height: 87px;
+    width: 96vw;
+    background-color: #1c0672;
+    color: white;
+    display: flex;
+    font-size: 27px;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0px 20px;
+}
+
+.containernav a {
+    color: white;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.containernav a:hover {
+    cursor: pointer;
+    text-decoration: underline 3px solid;
+}
+
+.logo {
+    font-size: 33px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero_section {
+    gap: 23px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-image: url(/img/hero-image.jpeg);
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero_section h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 96px;
+}
+
+.hero_section span {
+    align-items: center;
+    font-size: 27px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.hero_section P {
+    margin: 0px 7vw;
+    font-size: 17px;
+    text-align-last: center;
+}
+
+.music {
+    background-color: #281154;
+    gap: 27px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    /* font-size: 21px; */
+    text-align-last: center;
+    font-family: none;
+    height: 100vh;
+}
+
+.music h1 {
+    font-size: 23px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: -430px;
+}
+
+.music p {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px 7vw;
+}
+
+.music button {
+    color: white;
+    font-weight: 700;
+    font-size: 13px;
+    background-color: red;
+    border-color: red;
+    height: 37px;
+    width: 156px;
+}
+.music button:hover{
+    cursor: pointer;
+    background-color: rgb(179, 11, 11);
+    border: 2px solid red;
+}
+.ipad_iphone {
+    display: flex;
+    background-color: #fff;
+    justify-content: center;
+}
+
+.ipad_iphone img {
+
+    margin-top: -430px;
+}
+
+.tv_collection {
+    /* justify-content: space-between; */
+    display: flex;
+    align-items: center;
+    /* margin-left: 70px; */
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tv_collection h2 {
+    /* display: flex; */
+
+    font-size: 21px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    margin: 7vh 27vw;
+}
+
+.tv_collection p {
+    text-align-last: center;
+    margin: 0px 11vw;
+}
+
+.tv_collection button {
+    font-size: 17px;
+    height: 37px;
+    width: 120px;
+    color: white;
+    background-color: rgb(42, 22, 192);
+    font-family: 'Roboto', sans-serif;
+    margin: 33px;
+}
+.tv_collection button:hover{
+    cursor: pointer;
+    background-color: rgb(179, 11, 11);
+    border: 2px solid red;
+}
+.tvimg {
+    display: flex;
+    width: 100vw;
+    height: auto;
+}
+.entertainment{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    height: 100vh;
+    color: white;
+    background-image: url(/img/video-image.jpeg);
+    background-size: cover;
+}
+.entertainment p{
+    margin: 0vw 13vw;
+    text-align: center;
+}
+.gift_card{
+    display: flex;
+    height: 70vh;
+
+}
+.gift_card img{
+    max-width: 57vw;
+    margin: 8vw;
+}
+.giftdetail{
+    margin-right: 5vw;
+}
+.giftdetail h2{
+    margin-top: 84px;
+    margin-bottom: 22px;
+}
+.giftdetail p{
+    text-align-last: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    font-size: 18px;
+}
+.giftdetail button{
+margin-top: 22px;
+background-color: #1e0d7f;
+color: white;
+width: 125px;
+height: 35px;
+}
+.giftdetail button:hover{
+    cursor: pointer;
+    background-color: #2523c1;
+    border-radius: 2px slid #1e0d7f;
+}
+.footer{
+    height: 175px;
+    display: flex;
+    display: flex;
+    background-color: rgb(33, 11, 77);
+    row-gap: 8px;
+    color: white;
+    justify-content: space-between;
+    padding: 11px 102px;
+    text-align-last: left;
+}
+.footer_upper ul{
+    font-size: 22px;
+    margin: 8px 0px; 
+}
+.footer li{
+    font-size: 17px;
+list-style: none;
+margin: 4px;
+}
+.footer_lower{
+    font-size: 22px;
+    background-color: rgb(48, 14, 158);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
